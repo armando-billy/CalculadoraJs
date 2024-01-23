@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.contorno {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pantalla{
+    border: 1px solid black;
+    height: 1.5cm;
+    width: 4cm;
+    margin-top: 0.2cm;
+    justify-content: end;
+}
+
+.div_superior{
+    display: flex;
+    justify-content: end;
+
+}
+
+.antiguo_resultado{
+    display: flex;
+    height: 0.7cm;
+    justify-content: end;
+    align-items: center;
+    margin-right: 0.2cm;
+}
+
+.operacion_old{
+    display: flex;
+    height: 0.7cm;
+    justify-content: end;
+    align-items: center;
+    margin-right: 0.2cm;
+}
+
+.datos{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    height: 0.8cm;
+    gap: 0.3cm;
+    margin-right: 0.2cm;
+
+}
+
+.datos_modificar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11pt;
+}
+
+.operacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos_agregandose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13pt;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:4px;
+    margin: 0.2cm
+}
+
+
+.fila{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1cm;
+    width: 1cm;
+}
+
+#punto{
+    font-size: 16pt;
+}

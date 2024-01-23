@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- relacion con archivo css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+
+    <div class="contorno">
+
+        <div class="pantalla">
+            <div class="div_superior">
+                <div class="operacion_old"></div>
+                <div class="antiguo_resultado"></div>
+            </div>
+            <div class="datos">
+                <div class="datos_modificar"></div>
+                <div class="operacion"></div>
+                <div class="datos_agregandose">0</div>
+            </div>
+        </div>
+        <div class="botones">
+
+            <div class="fila" id="fila1">
+                <button class="clear">C</button>
+                <button id="masmenos">+/-</button>
+                <button class="operador" id="division">/</button>
+                <button class="clear">C</button>
+                
+            </div>
+
+            <div class="fila" id="fila2">
+                <button class="numero" id="siete">7</button>
+                <button class="numero" id="ocho">8</button>
+                <button class="numero" id="nueve">9</button>
+                <button class="operador" id="por">x</button>
+                
+            </div>
+
+            <div class="fila" id="fila3">
+                <button class="numero" id="cuatro">4</button>
+                <button class="numero" id="cinco">5</button>
+                <button class="numero" id="seis">6</button>
+                <button class="operador" id="menos">-</button>
+                
+            </div>
+
+            <div class="fila" id="fila4">
+                <button class="numero" id="uno">1</button>
+                <button class="numero" id="dos">2</button>
+                <button class="numero" id="tres">3</button>
+                <button class="operador" id="mas">+</button>
+                
+            </div>
+
+            <div class="fila" id="fila5">
+                <button class="numero" id="cero">0</button>
+                <button class="numero" id="punto">.</button>
+                <button class="boton" id="borrar">Del</button>
+                <button class="boton" id="igual">=</button>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="funciones.js" defer> </script>
+  </body>
